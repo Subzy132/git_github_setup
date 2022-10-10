@@ -68,3 +68,8 @@ Python has the following data types built-in by default, in these categories:
 > print(user_dob)
 > print(user_course)
 > print(user_resident)
+
+
+### setting up git and github using ssh key
+
+
