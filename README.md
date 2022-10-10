@@ -72,4 +72,27 @@ Python has the following data types built-in by default, in these categories:
 
 ### setting up git and github using ssh key
 
+1 - Generate ssh key-pair on localhost
+2 - keep the private key on local host inside .ssh folder
+3 - copy the public key into your repository on github
 
+#### generating ssh key
+
+1 - Open terminal 
+
+2 - Enter Command ssh-keygen -t rsa -b 4096 -c "your email"
+
+3 - Enter the file you wish to save the key
+
+4 - Enter your passphrase twice
+
+5 - Your identification is now saved
+
+6 - once you have now set up your README.md file you now need to carry out the following commands
+
+> git init
+> git add README.md
+> git commit -m "first commit"
+> git branch -M main
+> git remote add origin "git@github.com:[username]/[repository].git"
+> git push -u origin main
