@@ -76,3 +76,5 @@ print(last_name)
 print(first_name + " " + last_name + " and your salary is " + str(salary))
 #F string
 print(f"{first_name} {last_name} and your salary is {salary}")
+
+
