@@ -239,3 +239,6 @@ print(example_text.upper())
 print(example_text.capitalize())
 print(example_text.replace("with", "that has"))
 ```
+
+### Concatination & casting
+

@@ -53,17 +53,26 @@
 
 # use var = string "afsafghjsjagkfds"
 
-white_space = "lot's of spaces at the end                "
+# white_space = "lot's of spaces at the end                "
+#
+# print(len(white_space))
+# # strip() removes the spaces at the end of the string
+# print(len(white_space.strip()))
+#
+# example_text = "here's some text with lot's of text"
+#
+# print(example_text.count("text"))
+# print(example_text.upper())
+# print(example_text.capitalize())
+# print(example_text.replace("with", "that has"))
 
-print(len(white_space))
-# strip() removes the spaces at the end of the string
-print(len(white_space.strip()))
-
-example_text = "here's some text with lot's of text"
-
-print(example_text.count("text"))
-print(example_text.upper())
-print(example_text.capitalize())
-print(example_text.replace("with", "that has"))
+first_name = "Subhaan"
+last_name = "Hussain"
+salary = 40
 
 
+print(first_name)
+print(last_name)
+print(first_name + " " + last_name + " and your salary is " + str(salary))
+#F string
+print(f"{first_name} {last_name} and your salary is {salary}")
