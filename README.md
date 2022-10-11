@@ -296,3 +296,5 @@ print(type(essentials))
 # essentials [0] = "coffee" - this will show up as an error
 print(essentials)
 ````
+
+

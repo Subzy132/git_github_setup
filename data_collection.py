@@ -17,6 +17,7 @@ shopping_list.pop(1)
 shopping_list[2] = 'ice cream'
 print(shopping_list)
 
+
 # can list have multiple data types
 
 multiple_types = [1, 2, 3, "one", "two", "three"]
@@ -33,3 +34,8 @@ print(type(essentials))
 # whats the difference between lists and tuples
 # essentials [0] = "coffee" - this will show up as an error
 print(essentials)
+
+x = 5
+x = complex(x)
+
+print(x)
