@@ -219,3 +219,23 @@ print(greeting[-12:-6])
 print(greeting[-6:])
 ````
 
+### String Methods
+
+```python
+# String Methods are available
+
+# use var = string "afsafghjsjagkfds"
+
+white_space = "lot's of spaces at the end                "
+
+print(len(white_space))
+# strip() removes the spaces at the end of the string
+print(len(white_space.strip()))
+
+example_text = "here's some text with lot's of text"
+
+print(example_text.count("text"))
+print(example_text.upper())
+print(example_text.capitalize())
+print(example_text.replace("with", "that has"))
+```
