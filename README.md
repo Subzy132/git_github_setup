@@ -57,17 +57,20 @@ Python has the following data types built-in by default, in these categories:
 - None Type:	NoneType
 ### Task
 
-> userfname = input('Please enter your first name: ')
-> userlname = input('Please enter your last name: ')
-> user_dob = input('please enter your Date of birth: ')
-> user_course = input('Please enter your course name: ')
-> user_resident = input('Please enter if you are a uk resident or not (Yes or No): ')
+```
+userfname = input('Please enter your first name: ')
+userlname = input('Please enter your last name: ')
+user_dob = input('please enter your Date of birth: ')
+user_course = input('Please enter your course name: ') 
+user_resident = input('Please enter if you are a uk resident or not (Yes or No): ')
 
-> print(userfname)
-> print(userlname)
-> print(user_dob)
-> print(user_course)
-> print(user_resident)
+print(userfname) 
+print(userlname)
+print(user_dob) 
+print(user_course)
+print(user_resident)
+
+```
 
 
 ### setting up git and github using ssh key
@@ -79,7 +82,6 @@ Python has the following data types built-in by default, in these categories:
 #### generating ssh key
 
 1 - Open terminal 
-
 2 - Enter Command ssh-keygen -t rsa -b 4096 -c "your email"
 
 3 - Enter the file you wish to save the key
