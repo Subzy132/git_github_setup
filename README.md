@@ -109,10 +109,8 @@ git push -u origin main
 - Now you need send this new data to github 
 - `git push -u origin main` 
 - `git status`
-<<<<<<< HEAD
 - add `.gitignore` file and then add all the dependencies you don't want commited to github
 - If you have made changes on Git Hub then before adding on your local machine you need to pull whatever changes you made online and then commit your local machine.
 - to pull changes from git-hub ``git pull``
-=======
 
 #### changes on github
