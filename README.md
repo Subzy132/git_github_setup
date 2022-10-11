@@ -168,4 +168,54 @@ collaborate (see also: git help workflows)
 - `==` True or False
 - `>=` greater than or equals to 
 - `<=` Lesser than or equals to 
-- `%` modulus 
+- `%` This is the Modulo operator.  It returns the remainder of dividing the left hand operand by right hand operand.
+- `!=` Not equals to. compares two variables to see if they don't equal each other
+
+
+### examples 
+
+```python
+a = 24
+b = 15
+
+print(a + b) # outcome of a and b added = 39
+print(a - b) # outcome of a - b = 9
+print(a > b) # outcome boolean = True
+print(a == b) # outcome false because a does not equal b
+print(a % b) # outcome will be 9 because 24/15 is 1 remainder 9
+print(a != b) # outcome will be true because 24 doesn't equal 15
+
+# create a print statement to show the use case of it
+
+# boolean Builtin methods in Python - Boolean Methods
+# DRY - Do Not Repeat yourself
+
+greeting = "Hello World!"
+
+print("greeting = " + greeting)
+print("Is it all alphabets? " + greeting.isalpha())
+print("Is it all lower case? " + greeting.islower())
+print("Does it start with a H? " + greeting.startswith("H"))
+print("Does it end with a !? " + greeting.endswith("!"))
+print("Is it all digits? " + greeting.isdigit())
+```
+
+##### String slicing
+
+string indexing starts from 0
+
+````python
+# string slicing
+
+print(greeting)
+
+# we have builtin method that checks the len of string
+
+print(len(greeting))
+print(greeting[0:5])
+print(greeting[6:12])
+
+print(greeting[-12:-6])
+print(greeting[-6:])
+````
+
