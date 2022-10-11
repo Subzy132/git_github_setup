@@ -242,3 +242,57 @@ print(example_text.replace("with", "that has"))
 
 ### Concatination & casting
 
+````python
+first_name = "Subhaan"
+last_name = "Hussain"
+salary = 40
+
+
+print(first_name)
+print(last_name)
+print(first_name + " " + last_name + " and your salary is " + str(salary))
+#F string
+print(f"{first_name} {last_name} and your salary is {salary}")
+
+
+````
+
+### Data Collection 
+
+````python
+# Data collection
+# Lists
+# Tuples
+# Dict
+
+
+# Lists
+# Syntax ["asdf", "dafsa", "afdfdga"]
+
+# apply DRY
+
+shopping_list = ["ketchup", "fanta", "eggs", "bread"]
+print(shopping_list)
+print(type(shopping_list))
+shopping_list.append("chicken")
+shopping_list.pop(1)
+shopping_list[2] = 'ice cream'
+print(shopping_list)
+
+# can list have multiple data types
+
+multiple_types = [1, 2, 3, "one", "two", "three"]
+
+print(multiple_types)
+
+# Tuples
+# Immutable - can't be changed - edited - added
+# Syntax ("")
+
+essentials = ("Milk", "Paracetemol", "drinks")
+print(essentials)
+print(type(essentials))
+# whats the difference between lists and tuples
+# essentials [0] = "coffee" - this will show up as an error
+print(essentials)
+````
