@@ -34,11 +34,12 @@ Python has no command for declaring a variable.
 
 A variable is created the moment you first assign a value to it.
 
-> first_name = "Subhaan"
-> last_name = "Hussain"
-> salary = 50
-> travel = 3.5
-
+``` python
+first_name = "Subhaan"
+last_name = "Hussain"
+salary = 50
+travel = 3.5
+```
 ### Data types
 
 In programming, data type is an important concept.
@@ -57,7 +58,7 @@ Python has the following data types built-in by default, in these categories:
 - None Type:	NoneType
 ### Task
 
-```
+``` python
 userfname = input('Please enter your first name: ')
 userlname = input('Please enter your last name: ')
 user_dob = input('please enter your Date of birth: ')
@@ -92,9 +93,19 @@ print(user_resident)
 
 6 - once you have now set up your README.md file you now need to carry out the following commands
 
-> git init
-> git add README.md
-> git commit -m "first commit"
-> git branch -M main
-> git remote add origin "git@github.com:[username]/[repository].git"
-> git push -u origin main
+````
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin "git@github.com:[username]/[repository].git"
+git push -u origin main
+````
+
+#### Git and Github
+- add changes to our Git-Hub repo - the changes that we made on local host
+- `git add filename` or `git add .` . means push everything from current location
+- `git commit -m "new markdown added"` quotations marks needs to have logical meaning
+- Now you need send this new data to github 
+- `git push -u origin main` 
+- `git status`
