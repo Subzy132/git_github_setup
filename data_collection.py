@@ -16,6 +16,7 @@ shopping_list.append("chicken")
 shopping_list.pop(1)
 shopping_list[2] = 'ice cream'
 print(shopping_list)
+print(shopping_list[0])
 
 
 # can list have multiple data types
